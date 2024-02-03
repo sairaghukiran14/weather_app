@@ -2,7 +2,7 @@ import { DateTime } from "luxon";
 import { toast } from "react-toastify";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
-const BASE_URL = import.meta.env.VITE_URL;
+const BASE_URL = import.meta.env.VITE_URL  || "https://api.openweathermap.org/data/2.5";
 console.log(API_KEY);
 console.log(BASE_URL);
 
